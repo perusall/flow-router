@@ -6,7 +6,6 @@ Package.describe({
 });
 
 Package.onUse((api) => {
-  api.versionsFrom(['1.4', '3.0-beta.0']);
   api.use(['modules', 'ecmascript', 'promise', 'tracker', 'reactive-dict', 'reactive-var', 'ejson', 'check'], ['client', 'server']);
 
   api.use(['zodern:types@1.0.13', 'typescript'], ['client', 'server'], { weak: true });
